@@ -1,11 +1,18 @@
 html{
   font-size: 1rem;
 }
-
+body{
+  width: 100%;
+}
 ul{
   list-style: none;
   margin: 0;
   padding-left: 0;
+}
+button {
+  border: 0;
+  cursor: pointer;
+  background-color: inherit;
 }
 .header{
   background-color: pink;
@@ -32,15 +39,46 @@ ul{
 .left-menu a, .right-menu a{
   margin-right: 15px;
 }
-.car_pic{
-  background-image: url(../assets/volvo-image.jpg);
-  background-repeat: no-repeat;
-  background-color: #fff;
+main{
   width: 100%;
-  height: 810px;
+  min-height: 1100px;
+  background-image: url(../assets/volvo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+}
+.container{
+  width: 300px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+}
+.car_pic{
 }
 .car_text{
   color: #fff;
   background-color: #aaa;
-
+}
+.car_text span{
+  display: block;
+}
+.car_text span:first-child{
+  color: #000;
+}
+.car_text span:last-child{
+  font-size: 40px;
+}
+.btn-more{
+  border: 1px solid #fff;
+  color:#fff;
+  font-size: 1.2rem;
+  padding: 20px 50px;
+  width: 250px;
+  margin-left: 20px;
+}
+.btn-more:hover, .btn-more:focus{
+  background-color: #fff;
+  color: #000;
 }
