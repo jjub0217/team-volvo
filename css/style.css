@@ -1,44 +1,61 @@
 html{
   font-size: 1rem;
 }
+
 body{
   width: 100%;
 }
+
 ul{
   list-style: none;
   margin: 0;
   padding-left: 0;
 }
+
 button {
   border: 0;
   cursor: pointer;
   background-color: inherit;
 }
+
+
+/* 헤더 */
+
 .header{
   background-color: pink;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .logo{
   order: 1;
 }
+
 .logo img{
   width: 47px;
   height: 47px;
 }
-.left-menu, .right-menu{
-  display: flex;
-}
+
 .menubox1{
   order: 0;
 }
+
+.left-menu, .right-menu{
+  display: flex;
+}
+
 .menubox2{
   order: 2;
 }
+
 .left-menu a, .right-menu a{
   margin-right: 15px;
 }
+
+
+/* 메인 콘텐츠 */
+
 main{
   width: 100%;
   min-height: 1100px;
@@ -49,27 +66,31 @@ main{
   display: flex;
   align-items: center;
 }
+
 .container{
   width: 300px;
   display: flex;
   flex-flow: column nowrap;
   justify-content: flex-start;
 }
-.car_pic{
-}
+
 .car_text{
   color: #fff;
   background-color: #aaa;
 }
+
 .car_text span{
   display: block;
 }
+
 .car_text span:first-child{
   color: #000;
 }
+
 .car_text span:last-child{
   font-size: 40px;
 }
+
 .btn-more{
   border: 1px solid #fff;
   color:#fff;
@@ -78,7 +99,10 @@ main{
   width: 250px;
   margin-left: 20px;
 }
+
 .btn-more:hover, .btn-more:focus{
   background-color: #fff;
   color: #000;
 }
+
+/* 푸터 */
