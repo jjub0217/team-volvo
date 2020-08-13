@@ -1,3 +1,8 @@
+ul{
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
 .car_pic{
   background-image: url();
   background-color: #fff;
@@ -6,5 +11,9 @@
 }
 .car_text{
   color: #fff;
+<<<<<<< HEAD
   background-color: #aaa;
+=======
+
+>>>>>>> 7b8f2a6f5d1fb4e8067ae27600e814e0469f62d2
 }
