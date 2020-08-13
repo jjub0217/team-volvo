@@ -1,0 +1,12 @@
+footer{
+    background-color: #161618;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.footer-menu li{
+    padding: 0;
+    list-style: none;
+    color: #fff;
+    /* text-decoration: none; */
+}
