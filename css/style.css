@@ -4,7 +4,8 @@ ul{
   padding-left: 0;
 }
 .car_pic{
-  background-image: url();
+  background-image: url(../assets/volvo-image.jpg);
+  background-repeat: no-repeat;
   background-color: #fff;
   width: 100%;
   height: 810px;
