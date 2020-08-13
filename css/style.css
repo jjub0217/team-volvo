@@ -1,9 +1,8 @@
-<<<<<<< HEAD
 ul{
   list-style: none;
   margin: 0;
   padding-left: 0;
-=======
+}
 .car_pic{
   background-image: url(#);
   background-color: #fff;
@@ -12,5 +11,5 @@ ul{
 }
 .car_text{
   color: #fff;
->>>>>>> 49048e35ac747eec05055cbea9730936468a038d
+
 }
