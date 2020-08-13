@@ -1,7 +1,36 @@
+html{
+  font-size: 1rem;
+}
+
 ul{
   list-style: none;
   margin: 0;
   padding-left: 0;
+}
+.header{
+  background-color: pink;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+  order: 1;
+}
+.logo img{
+  width: 47px;
+  height: 47px;
+}
+.left-menu, .right-menu{
+  display: flex;
+}
+.menubox1{
+  order: 0;
+}
+.menubox2{
+  order: 2;
+}
+.left-menu a, .right-menu a{
+  margin-right: 15px;
 }
 .car_pic{
   background-image: url(../assets/volvo-image.jpg);
