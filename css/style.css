@@ -27,7 +27,6 @@ a{
 /* 헤더 */
 
 .header{
-  background-color: pink;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -56,6 +55,8 @@ a{
 
 .left-menu a, .right-menu a{
   margin-right: 15px;
+  color: #333;
+  font-weight: 300;
 }
 
 
