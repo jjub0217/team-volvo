@@ -18,7 +18,9 @@ button {
   background-color: inherit;
 }
 
-
+a{
+  text-decoration: none;
+}
 /* 헤더 */
 
 .header{
@@ -105,4 +107,101 @@ main{
   color: #000;
 }
 
+
 /* 푸터 */
+
+footer{
+  background-color: #161618;
+  width: 100%;
+  color: #fff;
+}
+.footer-inner{
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-menu{
+  padding-top: 55px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.footer-menu li:nth-child(1) a{
+  padding-left: 0 ;
+  padding-right: 19px;
+}
+
+.footer-menu li:nth-child(6) a{
+  padding-left: 0 ;
+  padding-right: 19px;
+}
+
+.footer-menu li{
+  padding: 0;
+  list-style: none;
+}
+
+.footer-menu a{
+  display: inline-block;
+  font-size: .9rem;
+  letter-spacing: 0;
+  color: inherit;
+  padding: 0 19px;
+  padding-bottom: 20px;
+}
+
+.sns{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+.sns a{
+  display: inline-block;
+  padding: 10px 10px;
+}
+
+.face-book img{
+  width: 19px;
+  margin-left: 10px;
+}
+
+.instagram img{
+  width: 19px;
+  margin-left: 10px;
+}
+
+.youtube img{
+  width: 19px;
+  margin-left: 10px;
+}
+
+.location{
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  font-size: .95rem;
+  white-space: nowrap;
+  padding: 0;
+  margin-bottom: 10px;
+  margin-top: 40px;
+  padding-left: 40px;
+}
+.locationLink{
+  display: block;  
+}
+.location::before{
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 5px;
+  background-image: url(/team-volvo/assets/globe.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
