@@ -1,31 +1,103 @@
 <!DOCTYPE html>
 <html lang="ko-KR">
+
 <head>
   <meta charset="UTF-8" />
-  <title>웹카페-고정형 레이아웃</title>
+  <title>volvo-clone-gitCLI</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="/team-volvo/css/reset.css">
   <script src="/js/jquery.min.js" defer></script>
-  <script src="/js/menu-tab.js" defer></script>
 </head>
 
 <body>
- <header class="header>
-   <h1 class="logo>
-     <img src="https://www.volvocars.com/static/images/volvo-logo-scaled.png" alt="volvo Logo>
-     <div class="menubox1">
-	  <ul class="left-menu">
-		  <li>Cars</li>
-		  <li>Buy</li>
-		  <li>Service</li>
-		  <li>Why Volvo</li>
-	  </ul>	
-     </div>
-     <div class="menubox2">
-	  <ul class="right-menu">
-		  <li>Build Your Own</li>
-		  <li>Test Drive</li>
-		  <li>Fina A Dealer</li>
-		  <li>Used</li>
-	  </ul> 
-      </div>
- </header>
+  <header class="header">
+    <h1 class=" logo">
+      <a href="#">
+        <img src="https://www.volvocars.com/static/images/volvo-logo-scaled.png" alt="volvo Logo">
+      </a>
+    </h1>
+    <div class=" menubox1">
+      <ul class="left-menu">
+        <li><a href="#">Cars</a></li>
+        <li><a href="#">Buy</a></li>
+        <li><a href="#">Service</a></li>
+        <li><a href="#">Why Volvo</a></li>
+      </ul>
+    </div>
+    <div class="menubox2">
+      <ul class="right-menu">
+        <li><a href="#">Build Your Own</a></li>
+        <li><a href="#">Test Drive</a></li>
+        <li><a href="#">Fina A Dealer</a></li>
+        <li><a href="#">Used</a></li>
+      </ul>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <p class="car_text">
+        <span>OUR IDEA OF LUXURY</span>
+        <span>The new XC90</span>
+      </p>
+      <button type="button" class="btn-more">더 알아보기<span aria-hidden="true">&gt;</span></button>
+    </div>
+  </main>
+  <footer>
+    <ul class="footer-menu">
+      <li>
+        <a href="#">Careers<span>&nbsp;&gt;</span></a>
+      </li>
+      <li>
+        <a href="#">Contact Us<span>&nbsp;&gt;</span></a>
+      </li>
+      <li>
+        <a href="#">News/Event<span>&nbsp;&gt;</span></a>
+      </li>
+      <li>
+        <a href="#">Newsletter<span>&nbsp;&gt;</span></a>
+      </li>
+      <li>
+        <a href="#">Accessories<span>&nbsp;&gt;</span></a>
+      </li>
+      <li>
+        <a href="#">Lifestyle Collection<span>&nbsp;&gt;</span></a>
+      </li>
+      <li>
+        <a href="#">Company<span>&nbsp;&gt;</span></a>
+      </li>
+      <li>
+        <a href="#">Investor Relations<span>&nbsp;&gt;</span></a>
+      </li>
+      <ul class="sns">
+        <li class="face-book"><a href="#"><img src="/team-volvo/assets/face-book.svg" alt="face-book"></a></li>
+        <li class="instagram"><a href="#"><img src="/team-volvo/assets/instagram.svg" alt="face-book"></a></li>
+        <li class="youtube"><a href="#"><img src="/team-volvo/assets/youtube.svg" alt="face-book"></a></li>
+      </ul>
+      <ul class="location">
+        <li>
+          Volvo Cars Korea
+        </li>
+        <li>
+          <a href="#">
+            Change Location<span>&nbsp;&gt;</span>
+          </a>
+        </li>
+      </ul>   
+    </ul>
+    <small>
+      <span>Copyright &copy; 2020 Volvo Car</span>
+      <span>Corporation (또는 계열사 또는 라이센스 제공자)</span>
+      <span class="browsing">본 사이트는 Chrome 브라우저에 최적화되어 있습니다.</span>
+    </small>
+    <ul class="law">
+      <li><a href="#">쿠키</a></li> 
+      <li><a href="#">법적고지사항</a></li>
+      <li><a href="#">개인정보취급방침</a></li>
+    </ul>
+
+    <a class="top" href="#">To the top</a>
+    <!-- <img src="/team-volvo/assets/top.PNG" alt=""> -->
+  </footer>
+</body>
+
+</html>
