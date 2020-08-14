@@ -43,3 +43,173 @@ ul{
 
   
 }
+
+.footer-menu li:nth-child(1) a{
+  padding-left: 0 ;
+}
+
+.footer-menu li:nth-child(6) a{
+  padding-left: 0 ;
+  padding-right: 19px;
+}
+
+
+.footer-menu a{
+  display: inline-block;
+  font-size: .9rem;
+  letter-spacing: 0;
+  color: inherit;
+  padding: 0 19px;
+  padding-bottom: 20px;
+}
+
+.footer-menu a:hover{
+  color: #ccc;
+}
+
+.sns {
+  margin-top: 20px;
+}
+
+.sns a{
+  display: inline-block;
+  padding: 10px 10px;
+}
+
+.face-book a{
+  padding-right: 15PX;
+}
+
+.face-book img{
+  width: 20px;
+}
+
+.instagram a{
+  /* background-color: blue; */
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 0px;
+}
+
+.instagram img{
+  width: 19px;
+}
+
+.youtube img{
+  width: 19px;
+}
+
+.youtube a{
+  padding-left: 20px;
+  padding-right: 0;
+}
+
+.location{
+  /* background-color: green; */
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.location li{
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  font-size: .95rem;
+  padding: 0;
+  padding-left: 40px;
+  margin-bottom: 15px;
+}
+
+.location li:nth-child(1)::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 5px;
+  background-image: url(/team-volvo/assets/globe.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+}
+
+.location a{
+  /* background-color: red; */
+  display: block;
+  text-align: center;
+  font-size: .85rem;
+  letter-spacing: 1px;
+  padding-right: 50px;
+  padding-left: 0;
+}
+
+.location a:hover{
+  color: #ccc;
+}
+
+small span{
+  display: block;
+  color: #aaa;
+  font-size: .9rem;
+}
+
+.browsing {
+  margin-top: 20px;
+  font-size: 10px;
+}
+
+.law {
+  margin-top: 20px;
+  /* display: inline; */
+  /* background-color: red; */
+}
+.law li{
+  display: inline;
+}
+
+
+
+.law a{
+  font-size: .91rem;
+}
+
+.law a::after{
+  content: "";
+  display: inline-block;
+  width: 1px;
+  height: 10px;
+  background-color: #fff;
+  margin: 0 10px;
+}
+
+.law a::after:nth-child(3){
+  background-color: red;
+}
+
+.top{
+  /* background-color: red; */
+  display: inline-block;
+  margin-top: 50px;
+  padding: 5px 50px;
+  margin-bottom: 60px;
+  text-align: center;
+  border: 1px solid #fff;
+  font-size: .9rem;
+  line-height: 3;
+  position: relative;
+}
+
+.top::after{
+  background-color: red;
+  content: "";
+  display: inline-block;
+  background-image: url(/team-volvo/assets/top.PNG);
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  background-size: 20px 10px;
+  height: 20px;
+  width: 20px;
+  margin-left: 10px;
+  position: absolute;
+  top: 20px;
+}
