@@ -218,7 +218,7 @@ footer{
   position: absolute;
   top: 0;
   left: 5px;
-  background-image: url(/team-volvo/assets/globe.svg);
+  background-image: url(../assets/globe.svg);
   background-repeat: no-repeat;
   background-size: contain;
   width: 20px;
@@ -295,7 +295,7 @@ small span{
   background-color: red;
   content: "";
   display: inline-block;
-  background-image: url(/team-volvo/assets/top.PNG);
+  background-image: url(../assets/top.PNG);
   background-repeat: no-repeat;
   background-position: 0 50%;
   background-size: 20px 10px;
