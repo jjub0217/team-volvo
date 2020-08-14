@@ -291,7 +291,7 @@ small span{
 }
 
 .top::after{
-  /* background-color: red; */
+  background-color: red;
   content: "";
   display: inline-block;
   background-image: url(/team-volvo/assets/top.PNG);
